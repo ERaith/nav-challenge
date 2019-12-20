@@ -1,0 +1,33 @@
+/* General Layout */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: #F8B195
+}
+
+body {
+  background-color: #355C7D;
+}
+
+header {
+  background-color: #F67280;
+}
+
+nav {
+  background-color: #C06C84;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+ul {
+  list-style-type: none;
+}
+li{
+  border: black 1px solid;
+  display:inline-block;
+}
+
+main {
+  background-color: #6C5B7B;
+}
