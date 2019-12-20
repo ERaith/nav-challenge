@@ -1,25 +1,31 @@
 /* General Layout */
 * {
   box-sizing: border-box;
+  color: #F8B195;
   margin: 0;
-  color: #F8B195
 }
 
 body {
   background-color: #355C7D;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
   background-color: #F67280;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  font-weight: 700;
 }
 
 nav {
   background-color: #C06C84;
+
 }
 
 .container {
   display: flex;
   justify-content: space-around;
+  width:50%;
 }
 
 ul {
@@ -27,49 +33,71 @@ ul {
 }
 
 li {
-  border: black 1px solid;
   display: inline-block;
-}
-.active{
-  background-color:#6C5B7B;
+  font-size: 1.25em;
+  cursor: default;
 }
 
-main {
-  display: flex;
-  height: 20em;
-  align-items: center;
-  justify-content: center;
+.active {
   background-color: #6C5B7B;
 }
 
+main {
+  align-items: center;
+  background-color: #6C5B7B;
+  display: flex;
+  flex-direction: column;
+  height: 20em;
+  justify-content: center;
+}
+
 .all-courses {
-  background-color: pink;
-  width: 3em;
+  align-items: center;
+  background-color: grey;
+  display: flex;
   height: 4em;
+  justify-content: flex-start;
+  padding-left: 2em;
+  width: 100%;
 }
 
 .collections {
-  background-color: purple;
-  width: 3em;
+  align-items: center;
+  align-self: center;
+  background-color: grey;
+  display: flex;
   height: 4em;
+  justify-content: center;
+  width: 40%;
 }
 
 .wishlist {
-  background-color: red;
-  width: 3em;
+  align-items: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
   height: 4em;
+  justify-content: center;
+  width: 40%;
 }
 
 button {
-  width: 3em;
-  background-color: orange;
+  background-color: purple;
+  font-size: 1.2em;
+  width: 10em;
 }
-button:hover{
+
+button:hover {
   background-color: green;
 }
 
 .archived {
-  background-color: blue;
-  width: 3em;
+  align-items: center;
+  align-self: center;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
   height: 4em;
+  justify-content: center;
+  width: 40%;
 }
