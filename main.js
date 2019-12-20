@@ -14,13 +14,13 @@ function swapContent(event) {
     <p>Share Udemy with Friends!</p>
   </div>`;
   var collectionsHTML = `<div class="collections">
-    <p>Organize</p>
+    <h3>Organize</h3>
   </div>`;
   var wishListHTML = `<div class="wishlist">
     <button>Browse Stuff</button>
   </div>`;
   var archivedHTML = `  <div class="archived">
-      <h3>Past things</h3>
+      <h2>Past things</h2>
       <p>Something something dark side</p>
     </div>`;
   var replacementHTML = '';
