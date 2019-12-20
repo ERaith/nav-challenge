@@ -1,4 +1,4 @@
-var linksParent = document.querySelector('.container');
+var linksParent = document.querySelector('.link-container');
 linksParent.addEventListener('click', activeLink);
 
 function activeLink(event) {
@@ -41,5 +41,4 @@ function swapContent(event) {
   }
   var mainParent = document.querySelector('main');
   mainParent.innerHTML = replacementHTML;
-
 }

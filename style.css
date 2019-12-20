@@ -19,13 +19,12 @@ header {
 
 nav {
   background-color: #C06C84;
-
 }
 
-.container {
+.link-container {
   display: flex;
   justify-content: space-around;
-  width:50%;
+  width: 50%;
 }
 
 ul {
@@ -42,6 +41,7 @@ li {
   background-color: #6C5B7B;
 }
 
+/* Main portion of Site */
 main {
   align-items: center;
   background-color: #6C5B7B;
@@ -51,6 +51,7 @@ main {
   justify-content: center;
 }
 
+/*Styling for swapped HTML*/
 .all-courses {
   align-items: center;
   background-color: grey;
