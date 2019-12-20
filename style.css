@@ -33,14 +33,40 @@ li {
 
 main {
   display: flex;
+  height: 20em;
+  align-items: center;
   justify-content: center;
   background-color: #6C5B7B;
 }
 
-.all-courses {}
+.all-courses {
+  background-color: pink;
+  width: 3em;
+  height: 4em;
+}
 
-.collections {}
+.collections {
+  background-color: purple;
+  width: 3em;
+  height: 4em;
+}
 
-.wishlist {}
+.wishlist {
+  background-color: red;
+  width: 3em;
+  height: 4em;
+}
 
-.archived {}
+button {
+  width: 3em;
+  background-color: orange;
+}
+button:hover{
+  background-color: green;
+}
+
+.archived {
+  background-color: blue;
+  width: 3em;
+  height: 4em;
+}
