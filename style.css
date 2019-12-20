@@ -24,7 +24,7 @@ nav {
 .link-container {
   display: flex;
   justify-content: space-around;
-  width: 50%;
+  width: 62%;
 }
 
 ul {
@@ -32,6 +32,8 @@ ul {
 }
 
 li {
+  flex-grow: 1;
+  text-align: center;
   display: inline-block;
   font-size: 1.25em;
   cursor: default;
