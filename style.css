@@ -16,18 +16,31 @@ header {
 nav {
   background-color: #C06C84;
 }
-.container{
+
+.container {
   display: flex;
   justify-content: space-around;
 }
+
 ul {
   list-style-type: none;
 }
-li{
+
+li {
   border: black 1px solid;
-  display:inline-block;
+  display: inline-block;
 }
 
 main {
+  display: flex;
+  justify-content: center;
   background-color: #6C5B7B;
 }
+
+.all-courses {}
+
+.collections {}
+
+.wishlist {}
+
+.archived {}
